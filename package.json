@@ -1,0 +1,35 @@
+{
+  "name": "The Tech Blog",
+  "version": "1.0.0",
+  "description": "![License Badge](https://img.shields.io/badge/license-MIT-green.svg)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "seed": "node seeds/index.js",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katita81/techBlogMVC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katita81/techBlogMVC/issues"
+  },
+  "homepage": "https://github.com/katita81/techBlogMVC#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.7",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.21",
+    "sequelize": "^6.29.0"
+  }
+}
